@@ -32,7 +32,7 @@ En el directorio principal ejecutar:
 
 ## EJEMPLO LOGIN
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](/caps/01.png)
 
 
 
