@@ -55,7 +55,7 @@ En el directorio principal ejecutar:
 
 ## EJEMPLO REGISTER
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](/caps/02.png)
 
 
 #### Parents
@@ -86,7 +86,7 @@ En el directorio principal ejecutar:
 
 ## EJEMPLO PARENTS
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](/caps/03.png)
 
 #### Children by idParent
 
@@ -122,7 +122,7 @@ En el directorio principal ejecutar:
 
 ## EJEMPLO CHILDRENS
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](/caps/04.png)
 ## 
 
 El proyecto incluye un seeder con un user admin, dos parent y dos children insertados de forma inicial, de igual manera se dispone del metodo register para agregar mas usuarios.
