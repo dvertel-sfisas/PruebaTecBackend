@@ -1,6 +1,4 @@
-const { Parent } = require("../models");
-
-module.exports = (sequelize, Sequelize) => {
+module.exports = async (sequelize, Sequelize) => {
     const Children = sequelize.define("childrens", {
         name: {
             type: Sequelize.STRING
@@ -14,6 +12,8 @@ module.exports = (sequelize, Sequelize) => {
             }
         }
     });
+
+    await Children.sync();
 
     Children.associate = models => {
         Children.belongsTo(models.Parent, {

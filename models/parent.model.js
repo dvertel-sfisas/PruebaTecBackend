@@ -1,6 +1,6 @@
 const { User } = require("../models");
 
-module.exports = (sequelize, Sequelize) => {
+module.exports = async(sequelize, Sequelize) async => {
     const Parent = sequelize.define("parents", {
         description: {
             type: Sequelize.STRING
@@ -21,6 +21,6 @@ module.exports = (sequelize, Sequelize) => {
             onDelete: 'CASCADE'
         });
     };
-
+    await Parent.sync();
     return Parent;
 };
